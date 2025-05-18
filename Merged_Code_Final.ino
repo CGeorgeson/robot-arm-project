@@ -188,7 +188,7 @@ void loop() {
   }
 
   // Print measured voltages and voltage difference to serial monitor
-  Serial.print("A1-");
+  Serial.print("  A1-");
   Serial.print(voltageA1);
   Serial.print("  A2-");
   Serial.print(voltageA2);
